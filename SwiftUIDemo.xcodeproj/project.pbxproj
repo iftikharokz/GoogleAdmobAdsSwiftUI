@@ -14,6 +14,8 @@
 		046A81D62A601919002F356E /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A81D52A601919002F356E /* BannerAds.swift */; };
 		046A81D82A6025A1002F356E /* Native .swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A81D72A6025A1002F356E /* Native .swift */; };
 		046A81DB2A60281D002F356E /* OpenAppAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A81DA2A60281D002F356E /* OpenAppAd.swift */; };
+		04A85B862A610B2D006A8D2D /* NativeAdViewSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A85B852A610B2D006A8D2D /* NativeAdViewSmall.xib */; };
+		04A85B882A61117A006A8D2D /* NativeSmall .swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A85B872A61117A006A8D2D /* NativeSmall .swift */; };
 		2F81EC3429D7003F8DBDD37C /* Pods_SwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68472C1ED4B27B86259B8BF8 /* Pods_SwiftUIDemo.framework */; };
 		A83160CD286DF6A8007B34CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C7446A2864F75B00327C12 /* Assets.xcassets */; };
 		A88A283B28AEEA27003946EE /* Rewarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A283A28AEEA27003946EE /* Rewarded.swift */; };
@@ -29,6 +31,8 @@
 		046A81D52A601919002F356E /* BannerAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
 		046A81D72A6025A1002F356E /* Native .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Native .swift"; sourceTree = "<group>"; };
 		046A81DA2A60281D002F356E /* OpenAppAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAppAd.swift; sourceTree = "<group>"; };
+		04A85B852A610B2D006A8D2D /* NativeAdViewSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdViewSmall.xib; sourceTree = "<group>"; };
+		04A85B872A61117A006A8D2D /* NativeSmall .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NativeSmall .swift"; sourceTree = "<group>"; };
 		3D1428341B34EB3C6050F1C7 /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		557FD7973A98FD7B49CF6649 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		68472C1ED4B27B86259B8BF8 /* Pods_SwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +63,8 @@
 				046A81D52A601919002F356E /* BannerAds.swift */,
 				A8C744942864F9CC00327C12 /* BannerAlt.swift */,
 				A88A283A28AEEA27003946EE /* Rewarded.swift */,
+				04A85B872A61117A006A8D2D /* NativeSmall .swift */,
+				04A85B852A610B2D006A8D2D /* NativeAdViewSmall.xib */,
 				046A81D72A6025A1002F356E /* Native .swift */,
 				043F6D052A5EBC3C00CC8E54 /* NativeAdView.xib */,
 				046A81DA2A60281D002F356E /* OpenAppAd.swift */,
@@ -176,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043F6D062A5EBC3C00CC8E54 /* NativeAdView.xib in Resources */,
+				04A85B862A610B2D006A8D2D /* NativeAdViewSmall.xib in Resources */,
 				A83160CD286DF6A8007B34CD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +239,7 @@
 				A8C744952864F9CD00327C12 /* BannerAlt.swift in Sources */,
 				046A81D02A60161E002F356E /* AllAdsView.swift in Sources */,
 				046A81D22A601837002F356E /* Interstitial.swift in Sources */,
+				04A85B882A61117A006A8D2D /* NativeSmall .swift in Sources */,
 				A88A283B28AEEA27003946EE /* Rewarded.swift in Sources */,
 				046A81D82A6025A1002F356E /* Native .swift in Sources */,
 				046A81DB2A60281D002F356E /* OpenAppAd.swift in Sources */,

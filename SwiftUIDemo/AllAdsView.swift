@@ -10,6 +10,7 @@ import GoogleMobileAds
 
 struct AllAdsView: View {
     @StateObject private var nativeViewModel = NativeAdViewModel()
+    @StateObject private var nativeViewModelSmall = NativeAdViewModelSmall()
     let interstitial = InterstitialAd()
     
     //MARK: Rewarded Ad Swift Var's
@@ -34,8 +35,10 @@ struct AllAdsView: View {
                 NativeAdView(nativeViewModel: nativeViewModel)
                     .frame(height: 170)
             }
-            
-            
+            if nativeViewModelSmall.nativeAd != nil{
+                NativeAdViewSmall(nativeViewModelSmall: nativeViewModelSmall)
+                    .frame(height: 90)
+            }
             Button {
                 interstitial.adsLoad()
             } label: {
@@ -86,6 +89,7 @@ struct AllAdsView: View {
     }
     private func refreshAd() {
       nativeViewModel.refreshAd()
+        nativeViewModelSmall.refreshAd()
     }
 }
 
